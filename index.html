@@ -14,12 +14,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
-
   </head>
   <body>
     <div class="scroll-up-btn">
@@ -38,11 +36,20 @@
           <li><a href="#teams" class="menu-btn">Projects</a></li>
           <li><a href="#contact" class="menu-btn">Contact</a></li>
         </ul>
+        <!-- <div>
+          <ul class="menu">
+            <li><a class="menu-btn" href="https://github.com/shahriar08" target="_blank"><i class="fab fa-github "></i></a></li>
+            <li><a class="menu-btn" href="https://www.linkedin.com/in/shahriar08/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a class="menu-btn" href="https://github.com/shahriar08" target="_blank"><i class="fab fa-github "></i></a></li>
+          </ul>
+
+        </div> -->
         <div class="menu-btn">
           <i class="fas fa-bars"></i>
         </div>
       </div>
     </nav>
+  
 
     <!-- home section start -->
     <section class="home" id="home">
@@ -74,7 +81,7 @@
             <div class="text">
               I'm Al-Shahriar and I'm a <span class="typing-2"></span>
             </div>
-            <p>I completed my graduation fr </p>
+            <p>I completed my graduation fr</p>
             <a
               href="https://drive.google.com/file/d/1lg-x96vKEQqASZN6blVBgVwnfuixZ3c9/view?usp=sharing"
               target="_blank"
@@ -85,6 +92,90 @@
       </div>
     </section>
 
+    <!-- Project section start -->
+    <section class="project">
+      <div class="max-width">
+        <h2 class="title">Projects</h2>
+        <div class="container">
+          <div class="card">
+            <div class="card__header">
+              <img
+                src="images/car.png"
+                alt="card__image"
+                class="card__image"
+                width="600"
+              />
+            </div>
+            <div class="card__body">
+              <h4>Car House</h4>
+              <p>
+                <ul>
+                  <li><span>This website is powered by React , Material UI , nodeJS, Mongodb & Firebase</span></li>
+                  <li><span>Email Log In/ Registration and Google Login.</span></li>
+                  <li><span>Admin Panel & User Dashboard features and many more</span></li>
+                </ul>
+
+              </p>
+              <div>
+                <a href="https://car-house-5ce39.web.app/" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img
+                src="images/tour.png"
+                alt="card__image"
+                class="card__image"
+                width="600"
+              />
+            </div>
+            <div class="card__body">
+              <h4>TourSphere</h4>
+              <p>
+                <ul>
+                  <li><span>Best way to Find Best Tour Event</span></li>
+                  <li><span>Find Most Beautiful Pacakeges on Events.</span></li>
+                  <li><span>Most cheapest event you will find here/span></li>
+                </ul>
+              </p>
+              <div>
+                <a href="https://toursphere-69e8a.web.app/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+                <a href="https://toursphere-69e8a.web.app/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img
+                src="images/medi.png"
+                alt="card__image"
+                class="card__image"
+                width="600"
+              />
+            </div>
+            <div class="card__body">
+              <h4>MediCare</h4>
+              <p>
+                <ul>
+                  <li><span>This website is powered by React , Material UI , nodeJS, Mongodb & Firebase</span></li>
+                  <li><span>Email Log In/ Registration and Google Login.</span></li>
+                  <li><span>Admin Panel & User Dashboard features and many more</span></li>
+                </ul>
+              </p>
+              <div>
+                <a href="https://medicare-e53d5.web.app/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+                <a href="https://medicare-e53d5.web.app/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <!-- skills section start -->
     <section class="skills" id="skills">
       <div class="max-width">
@@ -92,9 +183,7 @@
         <div class="skills-content">
           <div class="column left">
             <div class="text">My creative skills & experiences.</div>
-            <p>
-
-            </p>
+            <p></p>
             <a href="#">Read more</a>
           </div>
           <div class="column right">
@@ -159,9 +248,7 @@
         <div class="contact-content">
           <div class="column left">
             <div class="text">Get in Touch</div>
-            <p>
-
-            </p>
+            <p></p>
             <div class="icons">
               <div class="row">
                 <i class="fas fa-user"></i>
@@ -237,7 +324,6 @@
     </footer>
 
     <script src="portfolio.js"></script>
-
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -264,15 +350,14 @@
       Password: "Anik@12345",
       To: "shahriarlne@gmail.com",
       From: "nilashafashion@gmail.com",
-      Subject: "New Main Contact Form From:"+name,
+      Subject: "New Main Contact Form From:" + name,
       Body: Body,
     }).then((message) => {
-      if (message=='OK'){
-        alert("Thank Your Email Has Been Send")
-      }
-      else{
+      if (message == "OK") {
+        alert("Thank Your Email Has Been Send");
+      } else {
         console.log(message);
-        alert('There is error at sending message')
+        alert("There is error at sending message");
       }
     });
   </script>
